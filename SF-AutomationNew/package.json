@@ -1,0 +1,13 @@
+{
+  "name": "sf-account-automation",
+  "version": "1.0.0",
+  "description": "Playwright test automation demo – Salesforce Account creation",
+  "scripts": {
+    "testAccountSpec": "npx playwright test tests/create-account.spec.js",
+    "test:report": "npx playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.0",
+    "dotenv": "^16.4.5"
+  }
+}

@@ -1,0 +1,14 @@
+# ── dependencies ───
+node_modules/
+
+# ── environment / secrets ───
+# .env
+
+# ── playwright output ──
+playwright-report/
+test-results/
+screenshots/
+
+# ── OS artefacts ───
+.DS_Store
+Thumbs.db

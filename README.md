@@ -73,12 +73,10 @@ SF_HOME_URL=
 
 ### Option B – Session ID URL (skip the login page entirely)
 
-1. Log in to Salesforce in your browser manually.
-2. Copy the full URL from the address bar (it looks like `https://myorg.lightning.force.com/…`).
-3. Paste it as `SF_SESSION_URL`:
+If you have a Salesforce session ID, you can use this format:
 
 ```env
-SF_SESSION_URL=https://myorg.lightning.force.com/lightning/page/home
+SF_SESSION_URL=https://<your_instance_url>/secur/frontdoor.jsp?sid=<session_id>&retURL=<optional_target_page>
 SF_USERNAME=
 SF_PASSWORD=
 ```
